@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace WindowServiceTemplateNET5.Service.Hosted
 {
+    /// <summary>
+    /// A sample background worker.
+    /// </summary>
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> logger;
