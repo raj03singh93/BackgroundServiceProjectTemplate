@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WindowServiceTemplateNET5.Common\WindowServiceTemplateNET5.Common.csproj" />
     <ProjectReference Include="..\WindowServiceTemplateNET5.Repository\WindowServiceTemplateNET5.Repository.csproj" />
     <ProjectReference Include="..\WindowServiceTemplateNET5.Service\WindowServiceTemplateNET5.Service.csproj" />
   </ItemGroup>
